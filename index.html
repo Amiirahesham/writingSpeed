@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Writing speed</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Writing Speed Test</h1>
+    <div class="time">
+        <span id="timer">00:00.0 (mm:ss.s)</span>
+    </div>
+
+    <div class="button-group">
+        <button id="startButton" onclick="startTimer()">Start</button>
+        <button id="stopButton" onclick="stopTimer()">Stop</button>
+        <button id="resetButton" onclick="resetTimer()">Reset</button>
+    </div>
+    
+    <p id="targetText">let's test your writing speed</p>
+        <button onclick="changeText()">Change Text</button>
+
+    <input type="text" id="inputText" placeholder="Type here..."></input>
+    <script src="script.js"></script>
+
+</body>
+</html>
